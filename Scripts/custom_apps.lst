@@ -1,23 +1,143 @@
 # --------------------------------------------------- // System
-# downgrade                                            # downgrade packages
-# trash-cli-git                                        # cli to manage trash files
-# libinput-gestures                                    # actions touchpad gestures using libinput
-# gestures                                             # gui for libinput-gestures
-
+htop                                                   # interactive process viewer
+btop                                                   # modern process viewer with visuals
+nvtop                                                  # GPU process viewer (NVIDIA/CUDA)
+xclip                                                  # command-line clipboard utility
+samba                                                  # SMB file sharing tools and libraries
+smbclient                                              # SMB client tools
 # --------------------------------------------------- // Dependencies
 xdg-desktop-portal-gtk                                 # xdg desktop portal using gtk
-# emote                                                # emoji picker gtk3
-
+emote                                                  # emoji picker gtk3
+ffmpeg                                                 # multimedia framework with codecs
+python                                                 # Python programming language (includes venv)
+python-pip                                             # Python package manager
+golang                                                 # Go programming language
+nodejs                                                 # Node.js runtime
+npm                                                    # Node.js package manager
+yarn                                                   # Fast Node.js package manager
+rustup                                                 # Rust version manager (recommended over `rust`)
+cargo                                                  # Rust package manager
+pyenv                                                  # Python version management
+pyenv-virtualenv-git                                   # Pyenv virtualenv plugin (AUR)
+docker                                                 # Containerization platform
+docker-compose-plugin                                  # New Docker Compose plugin
 # --------------------------------------------------- // Gaming
 steam                                                  # gaming platform
-gamemode                                               # daemon and library for game optimisations
 mangohud                                               # system performance overlay
-# gamescope                                            # micro-compositor for gaming
-
+wine                                                   # compatibility layer for running Windows apps
 # --------------------------------------------------- // Music
 cava                                                   # audio visualizer
 spotify                                                # proprietary music streaming service
-spicetify-cli                                          # cli to customize spotify client
-
-# --------------------------------------------------- // Apps
-# neovim                                               # vim based text editor
+yt-dlp                                                 # YouTube video downloader
+# --------------------------------------------------- // Video/Audio Editing
+krita                                                  # digital painting and image editing
+pinta                                                  # simple image editor
+gimp                                                   # advanced image editor
+shotcut                                                # video editor
+mpv                                                    # media player
+# --------------------------------------------------- // Browsers
+firefox                                                # web browser
+brave-bin                                              # Brave browser (AUR)
+google-chrome                                          # Google Chrome (AUR)
+microsoft-edge-stable-bin                              # Microsoft Edge (AUR)
+# --------------------------------------------------- // Terminals
+wezterm-git                                            # GPU-accelerated terminal (AUR)
+ghostty                                                # minimal terminal emulator
+konsole                                                # KDE terminal emulator
+alacritty                                              # fast, cross-platform terminal
+# --------------------------------------------------- // Development Tools
+microsoft-vscode-bin                                   # Visual Studio Code (AUR)
+git                                                    # version control system
+curl                                                   # command-line tool for transferring data
+wget                                                   # command-line tool for downloading files
+unzip                                                  # extract compressed ZIP files
+neofetch                                               # system information tool
+man-db                                                 # manual pages
+man-pages                                              # Linux manual pages
+ripgrep                                                # fast grep alternative
+fd                                                     # simple and fast file finder
+tree                                                   # directory listing tool
+jq                                                     # command-line JSON processor
+rsync                                                  # file synchronization tool
+openssh                                                # SSH client and server
+gnupg                                                  # encryption tool
+tmux                                                   # terminal multiplexer
+zoxide                                                 # smarter cd command
+bat                                                    # cat clone with syntax highlighting
+fzf                                                    # command-line fuzzy finder
+neovim                                                 # modern vim-based text editor
+dbeaver                                                # database management tool
+ranger                                                 # terminal file manager
+yazi                                                   # modern terminal file manager
+duf                                                    # disk usage/free utility
+ncdu                                                   # disk usage analyzer
+# --------------------------------------------------- // Wayland/Hyperland
+#hyprland                                              # Hyperland Wayland compositor
+#waybar                                                # Customizable status bar for Wayland
+#wofi                                                  # Application launcher for Wayland
+swaylock-effects                                       # Lock screen with effects
+swayidle                                               # Idle management daemon for Wayland
+grim                                                   # Screenshot tool for Wayland
+slurp                                                  # Select area for screenshots
+# --------------------------------------------------- // Fonts
+ttf-jetbrains-mono-nerd                               # JetBrains Mono Nerd Font
+# --------------------------------------------------- // Text Editors
+xed                                                   # simple text editor (GNOME-based)
+# --------------------------------------------------- // Video/Audio Codecs & Converters
+ffmpegthumbnailer                                     # Lightweight video thumbnailer
+gst-plugins-good                                      # GStreamer good plugin set (extra codecs)
+gst-plugins-bad                                       # GStreamer bad plugin set (additional formats)
+gst-plugins-ugly                                      # GStreamer ugly plugin set (restricted codecs)
+x264                                                  # H.264 encoder
+x265                                                  # H.265/HEVC encoder
+aom                                                   # AV1 codec library
+dav1d                                                 # Fast AV1 decoder
+opus-tools                                            # Opus codec utilities
+flac                                                  # FLAC lossless audio codec
+sox                                                   # Command-line audio processing tool
+handbrake                                             # Video transcoder GUI & CLI
+ffmpegfs                                              # Mount video files as transcoded formats
+mediainfo                                             # View metadata for audio/video files
+# --------------------------------------------------- // Media Streaming
+minidlna                                              # Lightweight DLNA/UPnP media server
+cuda                                                  # NVIDIA CUDA toolkit
+cudnn                                                 # NVIDIA cuDNN for deep learning
+nvidia-utils                                          # NVIDIA user-space utilities (should already be installed)
+nvidia-cuda-toolkit                                   # Additional CUDA tools
+nvcc                                                  # NVIDIA CUDA compiler (part of cuda package)
+go-tools                                              # Extra Go utilities (linting, formatting, etc.)
+dlv                                                   # Delve debugger for Go
+golangci-lint                                         # Fast Go linters
+gopls                                                 # Go language server
+python-black                                          # Code formatter for Python
+python-mypy                                           # Static type checker
+python-pytest                                         # Testing framework
+python-pipx                                           # Run Python applications in isolated environments
+python-virtualenv                                     # Create isolated Python environments
+ipython                                               # Interactive Python shell
+lldb                                                  # Debugger (alternative to gdb)
+valgrind                                              # Memory debugging & profiling tool
+strace                                                # System call tracer
+lsof                                                  # List open files
+httrack                                               # Website downloader
+cockpit                                               # Web-based system management tool
+cockpit-pcp                                           # Integrates Performance Co-Pilot into Cockpit
+cockpit-storaged                                      # Storage management add-on for Cockpit
+cockpit-system                                        # System management tools for Cockpit
+cockpit-networkmanager                                # Network management in Cockpit
+cockpit-podman                                        # Podman container management via Cockpit
+pcp                                                   # Performance Co-Pilot (system metrics collection)
+pcp-system-tools                                      # PCP additional system tools
+pcp-webapi                                            # Web API for PCP metrics
+glances                                               # System monitoring tool (alternative to htop/btop)
+sysstat                                               # Performance monitoring utilities (iostat, mpstat, etc.)
+atop                                                  # Advanced system & process monitoring
+logwatch                                              # Log analysis and reporting
+podman                                                # Rootless container runtime (alternative to Docker)
+virt-manager                                          # GUI for managing virtual machines
+qemu-full                                             # Full QEMU package for virtualization
+dnsmasq                                               # Lightweight DNS/DHCP server (for VM networking)
+earlyoom                                              # Prevents system freeze due to low memory
+anacron                                               # Runs scheduled tasks even if the system was off
+zram-generator                                        # Enables compressed RAM swap (good for performance)
+whatsapp-nativefier                                   # Native-like WhatsApp Web client (AUR)
